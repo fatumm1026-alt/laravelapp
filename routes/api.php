@@ -22,3 +22,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::post('/students', [StudentManagementController::class, 'storeStudent']);
 Route::post('/library', [StudentManagementController::class, 'storeLibrary']);
 Route::post('/sports', [StudentManagementController::class, 'storeSport']);
+// dwkdn
